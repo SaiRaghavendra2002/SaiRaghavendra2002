@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Raghavendra Katragadda - Cybersecurity Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            height: 100vh;
+            background-color: #2a2b2d;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            animation: fadeIn 3s ease-out;
+        }
+
+        .hero-section h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: #FFD700;
+            margin-bottom: 1rem;
+            animation: slideInUp 2s ease-out;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+            color: #FFF;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        /* Section Header */
+        .section-header {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #fff;
+            margin: 50px 0;
+            text-align: center;
+            animation: bounceIn 2s ease-out;
+        }
+
+        /* Skills Section */
+        .skills-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-section ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #DCDCDC;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        /* Area of Interest Section */
+        .interest-section {
+            background-color: #1e2124;
+            padding: 50px;
+            text-align: center;
+            color: white;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .interest-section h3 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: bold;
+            color: #FFD700;
+        }
+
+        .interest-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .interest-section ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #DCDCDC;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: #232323;
+            padding: 50px;
+            text-align: center;
+            color: white;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        .contact-section p a {
+            color: #1e90ff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .contact-section p a:hover {
+            color: #FF6347;
+        }
+
+        /* Button Hover Effects */
+        .btn-primary {
+            background-color: #FF6347;
+            border: none;
+            padding: 12px 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #FFD700;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            0% {
+                transform: translateY(50px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            60% {
+                transform: scale(1.1);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section animate__animated animate__fadeIn">
+        <h1 class="animate__animated animate__slideInUp">Welcome to My Cybersecurity Portfolio</h1>
+        <p class="animate__animated animate__fadeInUp">Hi! I'm **Sai Raghavendra Katragadda**, a computer science student with a passion for **cybersecurity**. I specialize in **defensive** and **offensive** cybersecurity, focusing on network security, ethical hacking, and vulnerability management.</p>
+        <a href="#skills" class="btn btn-primary animate__animated animate__bounceIn">Explore Skills</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header animate__animated animate__bounceIn">Skills & Technologies</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Defensive Skills</h3>
+                    <ul>
+                        <li>🔒 **Network Security**: Firewalls, IDS/IPS</li>
+                        <li>📊 **Incident Response**: Malware analysis, threat hunting</li>
+                        <li>🛡️ **Vulnerability Management**: Scanning, patching vulnerabilities</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Offensive Skills</h3>
+                    <ul>
+                        <li>🕵️ **Ethical Hacking**: Penetration testing with Metasploit and Burp Suite</li>
+                        <li>🐍 **Scripting**: Python, Bash for automation</li>
+                        <li>⚡ **Exploitation Frameworks**: OWASP ZAP, Kali Linux tools, Wireshark</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Area of Interest Section -->
+    <section class="interest-section">
+        <div class="section-header animate__animated animate__fadeInUp">Area of Interest</div>
+        <div class="container">
+            <h3>Things I Enjoy Outside Cybersecurity</h3>
+            <ul>
+                <li>🏏 **Playing Cricket**: A team sport that I love for its strategy and teamwork.</li>
+                <li>🌍 **Traveling**: Exploring new places, cultures, and cuisines.</li>
+                <li>📚 **Learning New Things**: I enjoy reading books, taking online courses, and attending tech workshops.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="section-header animate__animated animate__fadeInUp">Contact Me</div>
+        <div class="container text-center">
+            <p>Email: <a href="mailto:skt54@umsystem.edu">skt54@umsystem.edu</a></p>
+            <p>Phone: <a href="tel:+19133755543">+1 913-375-5543</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/raghavendra-sai-386a08339/" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
