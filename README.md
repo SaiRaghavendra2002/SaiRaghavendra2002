@@ -55,7 +55,7 @@
 ## 🌐 Connect with Me
 
 - 📧 **Email:** [skt54@umsystem.edu](mailto:your-email@example.com)  
-- 💼 **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/raghavendra-sai-386a08339/)  
+- 💼 **LinkedIn:** [MyLinkedIn Profile](https://www.linkedin.com/in/raghavendra-sai-386a08339/)  
 
 
 ---
